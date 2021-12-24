@@ -1,0 +1,4 @@
+docutils==0.17.1
+mypy~=0.900
+pre-commit~=2.9.3
+pytest~=6.2.1
