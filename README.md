@@ -1,6 +1,6 @@
 # LazyText
 
-![lazy](sloth.png)
+![lazy](docs/sloth.png)
 
 
 [![Build Status](https://github.com/jdvala/lazytext/workflows/Build%20Master/badge.svg)](https://github.com/jdvala/lazytext/actions)
