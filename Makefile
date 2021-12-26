@@ -27,12 +27,7 @@ install:
 .PHONY: docs-build
 ## Build sphinx docs using projects README and module structure (sphinx-apidoc)
 docs-build:
-	cd docs && make docs
-
-.PHONY: docs-show
-## Open docs main page with default viewer (Linux || Mac)
-docs-show:
-	xdg-open docs/_build/html/index.html || open docs/_build/html/index.html
+	cd docs && mkdocs serve
 
 .PHONY: help
 ## Print Makefile documentation

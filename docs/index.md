@@ -2,10 +2,9 @@
 
 ![lazy](sloth.png)
 
-
 [![Build Status](https://github.com/jdvala/lazytext/workflows/Build%20Master/badge.svg)](https://github.com/jdvala/lazytext/actions)
-[![Documentation](https://github.com/jdvala/lazytext/workflows/Documentation/badge.svg)](https://jdvala.github.io/lazytext)
-[![Code Coverage](https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg)](https://codecov.io/gh/jdvala/lazytext)
+[![lazytext](https://github.com/jdvala/lazytext/actions/workflows/main.yml/badge.svg?branch=gh-pages)](https://github.com/jdvala/lazytext/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg?token=YwZPjgYx6X)](https://codecov.io/gh/jdvala/lazytext)
 
 
 LazyText is inspired b the idea of [lazypredict](https://github.com/shankarpandala/lazypredict), a library which helps build a lot of basic mpdels without much code. LazyText is for text what lazypredict is for numeric data.

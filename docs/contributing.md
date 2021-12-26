@@ -18,7 +18,8 @@ Ready to contribute? Here's how to set up `lazytext` for local development.
 
     ```bash
     cd lazytext/
-    pip install -e .[dev]
+    make install
+    pip install -e .
     ```
 
 4. Create a branch for local development:

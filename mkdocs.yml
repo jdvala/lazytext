@@ -1,6 +1,7 @@
 theme:
   name: mkdocs
 nav:
-  - Home: "index.md"
+  - "index.md"
+  - "contributing.md"
 
 site_name: Lazy Text

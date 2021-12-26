@@ -66,8 +66,8 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
-docs/lazytext.*rst
+site/
+gh-deploy/
 
 # PyBuilder
 target/
