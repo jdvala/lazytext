@@ -34,5 +34,17 @@ setup(
     entry_points={"console_scripts": ["lazytext = lazytext.cli:entrypoint"]},
     author="lazytext",
     author_email="jay.vala@msn.com",
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Text Processing :: General",
+    ],
     url="https://github.com/jdvala/lazytext",
 )
