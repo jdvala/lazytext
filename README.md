@@ -3,7 +3,7 @@
 ![lazy](docs/sloth.png)
 
 
-[![Build Status](https://github.com/jdvala/lazytext/workflows/Build%20Master/badge.svg)](https://github.com/jdvala/lazytext/actions)
+[![lazytext](https://github.com/jdvala/lazytext/actions/workflows/main.yml/badge.svg)](https://github.com/jdvala/lazytext/actions/workflows/main.yml)
 [![Documentation](https://github.com/jdvala/lazytext/workflows/Documentation/badge.svg)](https://jdvala.github.io/lazytext)
 [![Code Coverage](https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg)](https://codecov.io/gh/jdvala/lazytext)
 
