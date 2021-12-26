@@ -2,9 +2,8 @@ name: lazytext
 
 on:
   pull_request:
-    branches: '*'
   push:
-    branches: ["master"]
+    branches: ["main"]
     tags: ["*"]
   workflow_dispatch:
 
