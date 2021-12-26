@@ -17,7 +17,7 @@ def read_requirements(path):
 
 setup(
     name="lazytext",
-    python_requires=">=3.8.0",
+    python_requires=">=3.7.0",
     setup_requires=["setuptools_scm"],
     install_requires=read_requirements(requirements_path),
     use_scm_version={
