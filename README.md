@@ -4,7 +4,7 @@
 
 
 [![lazytext](https://github.com/jdvala/lazytext/actions/workflows/main.yml/badge.svg)](https://github.com/jdvala/lazytext/actions/workflows/main.yml)
-[![Documentation](https://github.com/jdvala/lazytext/workflows/Documentation/badge.svg)](https://jdvala.github.io/lazytext)
+[![Documentation](https://github.com/jdvala/lazytext/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jdvala/lazytext/actions/workflows/pages/pages-build-deployment)
 [![Code Coverage](https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg)](https://codecov.io/gh/jdvala/lazytext)
 
 
