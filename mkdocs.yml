@@ -1,0 +1,6 @@
+theme:
+  name: mkdocs
+nav:
+  - Home: "index.md"
+
+site_name: Lazy Text

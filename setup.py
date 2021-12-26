@@ -31,13 +31,8 @@ setup(
     package_data={},
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    entry_points={
-        "console_scripts": [
-            "lazytext = lazytext.cli:entrypoint"
-        ]
-    },
+    entry_points={"console_scripts": ["lazytext = lazytext.cli:entrypoint"]},
     author="lazytext",
     author_email="jay.vala@msn.com",
     url="https://github.com/jdvala/lazytext",
 )
-
