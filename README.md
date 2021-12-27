@@ -6,6 +6,7 @@
 [![lazytext](https://github.com/jdvala/lazytext/actions/workflows/main.yml/badge.svg)](https://github.com/jdvala/lazytext/actions/workflows/main.yml)
 [![Documentation](https://github.com/jdvala/lazytext/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jdvala/lazytext/actions/workflows/pages/pages-build-deployment)
 [![Code Coverage](https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg)](https://codecov.io/gh/jdvala/lazytext)
+[![Downloads](https://static.pepy.tech/personalized-badge/lazytext?period=month&units=international_system&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/lazytext)
 
 
 LazyText is inspired b the idea of [lazypredict](https://github.com/shankarpandala/lazypredict), a library which helps build a lot of basic mpdels without much code. LazyText is for text what lazypredict is for numeric data.
