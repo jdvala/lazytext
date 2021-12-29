@@ -99,9 +99,9 @@
 <h1 id="lazytext">LazyText</h1>
 <p><img alt="lazy" src="sloth.png" /></p>
 <p><a href="https://github.com/jdvala/lazytext/actions"><img alt="Build Status" src="https://github.com/jdvala/lazytext/workflows/Build%20Master/badge.svg" /></a>
-<a href="https://jdvala.github.io/lazytext"><img alt="Documentation" src="https://github.com/jdvala/lazytext/workflows/Documentation/badge.svg" /></a>
-<a href="https://codecov.io/gh/jdvala/lazytext"><img alt="Code Coverage" src="https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg" /></a></p>
-<p>LazyText is inspired b the idea of <a href="https://github.com/shankarpandala/lazypredict">lazypredict</a>, a library which helps build a lot of basic mpdels without much code. LazyText is for text what lazypredict is for numeric data.</p>
+<a href="https://github.com/jdvala/lazytext/actions/workflows/main.yml"><img alt="lazytext" src="https://github.com/jdvala/lazytext/actions/workflows/main.yml/badge.svg?branch=gh-pages" /></a>
+<a href="https://codecov.io/gh/jdvala/lazytext"><img alt="codecov" src="https://codecov.io/gh/jdvala/lazytext/branch/master/graph/badge.svg?token=YwZPjgYx6X" /></a></p>
+<p>LazyText is inspired by the idea of <a href="https://github.com/shankarpandala/lazypredict">lazypredict</a>, a library which helps build a lot of basic models without much code. LazyText is for text what lazypredict is for numeric data.</p>
 <ul>
 <li>Free Software: MIT licence</li>
 </ul>
@@ -110,13 +110,13 @@
 <p><code>pip install lazytext</code></p>
 <h2 id="usage">Usage</h2>
 <p>To use lazytext import in your project as</p>
-<p><code>from lazytext.supervised import LazyTextPredict</code></p>
+<p><code>from lazytext.classification import LazyTextPredict</code></p>
 <h2 id="text-classification">Text Classification</h2>
 <p>Text classification on BBC News article classification.</p>
 <pre><code class="language-python">import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from lazytext.supervised import LazyTextPredict
+from lazytext.classification import LazyTextPredict
 import re
 import nltk
 
@@ -241,7 +241,7 @@ print(models[0])
 </code></pre>
 <h3 id="custom-metrics">Custom metrics</h3>
 <p>LazyText also support custom metric for evaluation, this metric can be set up like following</p>
-<pre><code class="language-python">from lazytext.supervised import LazyTextPredict
+<pre><code class="language-python">from lazytext.classification import LazyTextPredict
 # Custom metric
 def my_custom_metric(y_true, y_pred):
 
@@ -361,5 +361,5 @@ l.fit(x_train, x_test, y_train, y_test)
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2021-12-26 13:50:40.599428+00:00
+Build Date UTC : 2021-12-29 07:35:16.628591+00:00
 -->
